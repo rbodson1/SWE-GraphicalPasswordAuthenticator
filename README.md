@@ -1,4 +1,4 @@
-# SWE-GraphicalPasswordAuthenticator
+# GraphicalPasswordAuthenticator
 CSc4350/6350-Online(Asynchronously)
 
 Team 2-Recall based authentication (using an image scramber).
