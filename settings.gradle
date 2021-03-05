@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "MyGraphicalPasswordAuth"
+rootProject.name = "SWE-GraphicalPasswordAuthenticator"

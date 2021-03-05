@@ -2,7 +2,7 @@
    PLEASE DO NOT MESS WITH THIS FILE (CODE)
 */
 
-package com.example.mygraphicalpasswordauth;
+package com.example.swe_graphicalpasswordauthenticator;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

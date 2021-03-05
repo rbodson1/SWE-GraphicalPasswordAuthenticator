@@ -1,7 +1,7 @@
 /*
    PLEASE DO NOT MESS WITH THIS FILE (CODE)
 */
-package com.example.mygraphicalpasswordauth;
+package com.example.swe_graphicalpasswordauthenticator;
 
 import android.app.Activity;
 import android.content.Context;

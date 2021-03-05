@@ -1,4 +1,4 @@
-package com.example.mygraphicalpasswordauth;
+package com.example.swe_graphicalpasswordauthenticator;
 
 import org.junit.Test;
 
