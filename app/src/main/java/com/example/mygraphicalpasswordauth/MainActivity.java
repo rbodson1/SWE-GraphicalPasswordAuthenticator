@@ -1,4 +1,4 @@
-package com.example.puzzle_3x3;
+package com.example.mygraphicalpasswordauth;
 
 import android.content.Intent;
 import android.os.Bundle;

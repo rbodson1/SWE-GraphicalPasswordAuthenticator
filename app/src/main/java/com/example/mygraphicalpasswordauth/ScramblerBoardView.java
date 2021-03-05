@@ -1,7 +1,7 @@
 /*
    PLEASE DO NOT MESS WITH THIS FILE (CODE)
 */
-package com.example.puzzle_3x3;
+package com.example.mygraphicalpasswordauth;
 
 import android.app.Activity;
 import android.content.Context;

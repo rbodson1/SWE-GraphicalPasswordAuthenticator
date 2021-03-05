@@ -1,23 +1,21 @@
-package com.example.puzzle_3x3;
+package com.example.mygraphicalpasswordauth;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.RelativeLayout;
 
-public class RegisterActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
     private ScramblerBoardView boardView;
     private Bitmap imageBitmap = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
+        setContentView(R.layout.activity_login);
 
         // This code programmatically adds the ScramblerBoardView to the UI.
         RelativeLayout container = (RelativeLayout) findViewById(R.id.scrambler_container);
@@ -26,20 +24,9 @@ public class RegisterActivity extends AppCompatActivity {
         boardView.setLayoutParams(new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.MATCH_PARENT));
         container.addView(boardView);
 
-      initHomeButton(); //calling the function.
+
     }
 
-    // Initializing the Home button to go to the Home page (Main activity)
-    private void initHomeButton() {
-        Button login = findViewById(R.id.goHome);
-        login.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
-                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(intent);
-            }
-        });
-    }
 
     // This is the button function that displays and resets the image when clicked on
     public void displayResetImage(View view) {

@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Puzzle-3x3"
+rootProject.name = "MyGraphicalPasswordAuth"

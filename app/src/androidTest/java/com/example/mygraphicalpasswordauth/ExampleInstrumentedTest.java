@@ -1,4 +1,4 @@
-package com.example.puzzle_3x3;
+package com.example.mygraphicalpasswordauth;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.puzzle_3x3", appContext.getPackageName());
+        assertEquals("com.example.mygraphicalpasswordauth", appContext.getPackageName());
     }
 }
