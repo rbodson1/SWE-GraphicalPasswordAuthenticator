@@ -10,7 +10,7 @@
 
     <!-- layout for the login button -->
     <Button
-        android:id="@+id/mainLogin"
+        android:id="@+id/btn_mainLogin"
         android:layout_width="282dp"
         android:layout_height="73dp"
         android:layout_marginStart="69dp"
@@ -27,7 +27,7 @@
 
     <!-- layout for the register button -->
     <Button
-        android:id="@+id/mainRegister"
+        android:id="@+id/btn_mainRegister"
         android:layout_width="282dp"
         android:layout_height="73dp"
         android:layout_marginStart="70dp"
@@ -39,7 +39,7 @@
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mainLogin" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_mainLogin" />
 
     <!-- layout for the Welcome text -->
     <TextView

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+    <ImageView
+        android:id="@+id/source_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/image"
+        android:src="@drawable/spongebob" />
+
+    <Button
+        android:id="@+id/btn_split_image"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-4dp"
+        android:background="@color/design_default_color_primary"
+        android:textColor="@color/teal_200"
+        android:textSize="24sp"
+        android:text="Click here to split Image" />
+
+
+
+</RelativeLayout>
+
+<!-- This layout is shared among both the LoginImageSplitActivity and the RegisterImageSplitActivity -->

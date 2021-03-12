@@ -2,104 +2,75 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mainConstraint"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/register"
     tools:context=".RegisterActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/userNameConstraint"
-        android:layout_width="407dp"
-        android:layout_height="49dp"
-        android:layout_marginBottom="4dp"
-        app:layout_constraintTop_toBottomOf="@+id/registerLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <EditText
-            android:id="@+id/username"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:hint="Enter username"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="60dp"
-            android:inputType="textEmailAddress"
-            android:selectAllOnFocus="true"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="127dp"
-            tools:layout_editor_absoluteY="5dp" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/scramblerConstraint"
-        app:layout_constraintTop_toBottomOf="@+id/userNameConstraint"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_width="match_parent"
-        android:layout_height="600dp">
-
-        <RelativeLayout
-            android:id="@+id/scrambler_container"
-            android:layout_width="match_parent"
-            android:layout_height="600dp"
-            android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:paddingTop="@dimen/activity_vertical_margin"
-            android:paddingRight="@dimen/activity_horizontal_margin"
-            android:paddingBottom="@dimen/activity_vertical_margin"
-            android:visibility="visible"
-            tools:context=".RegisterActivity">
-
-
-            <Button
-                android:id="@+id/displayReset_button"
-                android:layout_width="204dp"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginLeft="80dp"
-                android:layout_marginBottom="92dp"
-                android:onClick="displayResetImage"
-                android:text="Display/reset image for password" />
-
-
-        </RelativeLayout>
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <LinearLayout
-        android:id="@+id/registerLayout"
-        android:layout_width="0dp"
+    <!-- The layout for the password text field-->
+    <EditText
+        android:id="@+id/passwdRegister"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#F9A825"
-        android:orientation="horizontal"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="@android:color/background_light"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/userRegister" />
 
-        <Button
-            android:id="@+id/goHome"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginEnd="32dp"
-            android:layout_marginRight="32dp"
-            android:layout_weight="1"
-            android:text="Home" />
+    <!-- The layout for the username text field -->
+    <EditText
+        android:id="@+id/userRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:hint="Username"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textColorHint="@android:color/background_light"
+        android:textColorLink="@color/black"
+        android:textCursorDrawable="@color/design_default_color_error"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-        <Button
-            android:id="@+id/register"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_weight="1"
-            android:text="Register" />
-    </LinearLayout>
+    <!-- The layout for the first register button-->
+    <Button
+        android:id="@+id/btn_register1"
+        android:layout_width="169dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="131dp"
+        android:text="REGISTER"
+        android:textColor="@color/teal_200"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwdRegister" />
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="143dp"
+        android:fontFamily="@font/bad_script"
+
+        android:text="FIRST REGISTRATION"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--
+    GridView with 4 value for numColumns attribute
+    When you change the number of column, please make sure you change the numberOfBlocks in
+    RegisterImageSplitActivity to match the column
+    -->
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:footerDividersEnabled="false"
+        android:padding="1dp"
+        android:numColumns="4"
+        android:listSelector="#0f0"/> <!-- The is the highlighted for the tile -->
+
+    <!-- The layout for the second login -->
+    <Button
+        android:id="@+id/btn_register2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_primary"
+        android:text="Register"
+        android:textColor="@color/teal_200"
+        android:textSize="24sp" />
+</LinearLayout>
