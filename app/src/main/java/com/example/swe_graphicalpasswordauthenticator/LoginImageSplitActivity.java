@@ -92,6 +92,9 @@ public class LoginImageSplitActivity extends AppCompatActivity {
             }
             yCo+= smallimage_Height;
         }
+        String log1 = getIntent().getStringExtra("firstLog"); // get the concatenated string from the first login into reg1
+        intent.putExtra("log1",log1); // carry the string into the designated screen(activity)
+
         intent.putExtra("num",rows);
 
         /*Starting the button intent "Click here to split image" button. This does two things :

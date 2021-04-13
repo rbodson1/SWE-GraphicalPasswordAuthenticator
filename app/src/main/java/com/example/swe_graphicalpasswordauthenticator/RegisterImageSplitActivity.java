@@ -92,6 +92,11 @@ public class RegisterImageSplitActivity extends AppCompatActivity {
             }
             yCo+= smallimage_Height;
         }
+
+        String reg1 = getIntent().getStringExtra("firstReg"); // get the concatenated string from the first Registration into reg1
+
+        intent.putExtra("reg1",reg1); // carry the string into the designated screen(activity)
+
         intent.putExtra("num",rows);
 
          /*Starting the button intent "Click here to split image" button. This does two things :
