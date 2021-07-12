@@ -6,7 +6,7 @@ Recall based authentication (using an image scrambler).
 
 An android app that lets a user move pieces to scramble a given image, creating an ordered list that becomes the password.
 
-Welcome page                                                                      Text input type password
+Welcome page                                                                     Text input type password
 
 <img width="414" alt="Screen Shot 2021-07-08 at 4 08 35 PM" src="https://user-images.githubusercontent.com/55414069/125353029-06fb4d00-e330-11eb-85c4-93df63d5dd99.png">  <img width="408" alt="Screen Shot 2021-07-08 at 4 08 52 PM" src="https://user-images.githubusercontent.com/55414069/125353087-1aa6b380-e330-11eb-929a-347739ba4bdc.png">
 
