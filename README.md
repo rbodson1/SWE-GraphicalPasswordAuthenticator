@@ -14,7 +14,7 @@ Welcome page                                                                    
 
 <img width="407" alt="Screen Shot 2021-07-08 at 4 09 53 PM" src="https://user-images.githubusercontent.com/55414069/125353113-22feee80-e330-11eb-9f94-056eddf75008.png">   <img width="402" alt="Screen Shot 2021-07-08 at 4 10 48 PM" src="https://user-images.githubusercontent.com/55414069/125353193-3a3ddc00-e330-11eb-9c4f-f1fdb44ccc59.png">
 
-<img width="406" alt="Screen Shot 2021-07-08 at 4 11 26 PM" src="https://user-images.githubusercontent.com/55414069/125353209-3e69f980-e330-11eb-94db-e10c6b103b96.png">   <img width="406" alt="Screen Shot 2021-07-08 at 4 12 13 PM" src="https://user-images.githubusercontent.com/55414069/125355867-82123280-e333-11eb-8fc4-28b1edf5101c.png">
+<img width="406" alt="Screen Shot 2021-07-08 at 4 11 26 PM" src="https://user-images.githubusercontent.com/55414069/125353209-3e69f980-e330-11eb-94db-e10c6b103b96.png">   <img width="408" alt="Screen Shot 2021-07-08 at 4 11 56 PM" src="https://user-images.githubusercontent.com/55414069/125353222-42961700-e330-11eb-82be-1ca23d7ebb80.png">
 
-<img width="408" alt="Screen Shot 2021-07-08 at 4 11 56 PM" src="https://user-images.githubusercontent.com/55414069/125353222-42961700-e330-11eb-82be-1ca23d7ebb80.png">
+ <img width="406" alt="Screen Shot 2021-07-08 at 4 12 13 PM" src="https://user-images.githubusercontent.com/55414069/125355867-82123280-e333-11eb-8fc4-28b1edf5101c.png">
 
