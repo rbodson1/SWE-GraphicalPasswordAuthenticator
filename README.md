@@ -11,9 +11,9 @@ An android app that lets a user move pieces to scramble a given image, creating 
 
 <img width="414" alt="Screen Shot 2021-07-08 at 4 08 35 PM" src="https://user-images.githubusercontent.com/55414069/125353029-06fb4d00-e330-11eb-85c4-93df63d5dd99.png">      <img width="408" alt="Screen Shot 2021-07-08 at 4 08 52 PM" src="https://user-images.githubusercontent.com/55414069/125353087-1aa6b380-e330-11eb-929a-347739ba4bdc.png">
 
-Scramble to create your password. Click on two tiles (images) to swap them, keep swapping to set your desire password.
-
 <img width="413" alt="Screen Shot 2021-07-08 at 4 09 15 PM" src="https://user-images.githubusercontent.com/55414069/125353100-1e3a3a80-e330-11eb-86ab-31f3ed216d2d.png">   <img width="405" alt="Screen Shot 2021-07-08 at 4 09 42 PM" src="https://user-images.githubusercontent.com/55414069/125353106-209c9480-e330-11eb-9563-8315ef058769.png">
+
+Scramble to create your password. Click on two tiles (images) to swap them, keep swapping to set your desire password.
 
 <img width="407" alt="Screen Shot 2021-07-08 at 4 09 53 PM" src="https://user-images.githubusercontent.com/55414069/125353113-22feee80-e330-11eb-9f94-056eddf75008.png">   <img width="402" alt="Screen Shot 2021-07-08 at 4 10 48 PM" src="https://user-images.githubusercontent.com/55414069/125353193-3a3ddc00-e330-11eb-9c4f-f1fdb44ccc59.png">
 
